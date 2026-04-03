@@ -86,7 +86,7 @@ const App = () => {
             
             <div className="commit">
               <div className="commit-header">
-                <span className="commit-hash">commit 8f3a3v2 (HEAD -> master, origin/master)</span>
+                <span className="commit-hash">commit 8f3a3v2 (HEAD -&gt; master, origin/master)</span>
                 <span className="commit-title">feat: Machine Learning Intern</span>
                 <span className="commit-company">@ DevelopersHub Corporation | March 2026 - Present</span>
               </div>
