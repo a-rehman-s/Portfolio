@@ -5,12 +5,12 @@ const App = () => {
   return (
     <>
       <header className="container">
-        <a href="#" className="logo">Abdur Rehman<span> .</span></a>
+        <a href="#" className="logo">Abdur Rehman Saeed<span> .</span></a>
         <nav>
           <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#work">Work</a></li>
-            <li><a href="#services">Services</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
@@ -22,8 +22,8 @@ const App = () => {
             <h2>Computer Engineer</h2>
             <h1>Abdur Rehman Saeed</h1>
             <p>
-              Machine Learning & Robotics Enthusiast. Translating complex business
-              challenges into effective machine learning solutions.
+              Innovative and adaptable professional with hands-on experience in machine learning and robotics.
+              Skilled in Python programming and data analysis, translating complex business challenges into effective ML solutions.
             </p>
             <a href="#contact" className="btn">Get in touch</a>
           </div>
@@ -33,79 +33,106 @@ const App = () => {
               <img src="/src/assets/dp.png" alt="Profile" className="dp" />
               <img src="/src/assets/hero.png" alt="Work sample" className="photo-2" />
               <img src="/src/assets/react.svg" alt="Badge" className="photo-3" />
-              <div className="stamp stamp--main">MY WORK</div>
-              <div className="stamp stamp--small">PHIRI</div>
+              <div className="stamp stamp--main">ABDUR REHMAN SAEED</div>
+              <div className="stamp stamp--small">COMPUTER ENGINEER</div>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" className="section">
+          <div className="section-title">Professional Summary</div>
+          <div className="work-panel" style={{marginTop: '1rem'}}>
+            <p>
+              Innovative and adaptable professional with hands-on experience in machine learning and robotics. Skilled in
+              Python programming and data analysis, contributing to projects that translate complex business challenges into
+              effective machine learning solutions.
+            </p>
+            <div style={{marginTop: '1rem'}}>
+              <strong>Academic History</strong>
+              <p>University of Engineering And Technology, Taxila — Bachelors of Computer Engineering (Expected: August 2027)</p>
+              <p>GPA: 2.98 • Winner Prompt Engineering by Hackxila</p>
+            </div>
+            <div style={{marginTop: '1rem'}}>
+              <strong>Contact</strong>
+              <p>Email: abdurrehmansaeed709@gmail.com • Phone: +92 314 0540826</p>
+              <p>Address: JOQs 6/C, PMO, Gulshan Colony, Taxila • LinkedIn: in/arehmans1</p>
             </div>
           </div>
         </section>
 
         <section id="work" className="section">
-          <div className="section-title">MY WORK</div>
-          <div className="work-panel">
-            <p>Selected project highlights and case studies.</p>
-            <div className="timeline">
-              <div className="timeline-node">
-                <div className="timeline-dot"></div>
-                <div className="timeline-title">Machine Learning Intern</div>
-                <div className="timeline-company">DevelopersHub Corporation <span style={{color:'#98a6b1'}}> | March 2026 - Present</span></div>
-                <div className="timeline-details">
-                  <ul>
-                    <li>Created customized applications to make critical predictions and automate reasoning.</li>
-                    <li>Developed a Weather Prediction System using ML on mock datasets.</li>
-                  </ul>
-                </div>
+          <div className="section-title">Work Experience</div>
+          <div className="timeline" style={{marginTop: '1rem'}}>
+
+            <div className="timeline-node">
+              <div className="timeline-dot"></div>
+              <div className="timeline-title">ML/AI Intern</div>
+              <div className="timeline-company">FlyRank AI | Islamabad, Pakistan (Remote) <span style={{color:'#98a6b1'}}>• Jun 2026 - Present</span></div>
+              <div className="timeline-details">
+                <ul>
+                  <li>Working as an AI intern at a Chicago-based startup; handling heavy datasets and model training.</li>
+                  <li>Building agentic AI and chatbots for startups and businesses; visualizing model results.</li>
+                </ul>
               </div>
             </div>
+
+            <div className="timeline-node">
+              <div className="timeline-dot"></div>
+              <div className="timeline-title">Machine Learning Intern</div>
+              <div className="timeline-company">DevelopersHub Corporation | Islamabad, Pakistan (Remote) <span style={{color:'#98a6b1'}}>• Apr 2026 - May 2026</span></div>
+              <div className="timeline-details">
+                <ul>
+                  <li>Created customised applications to make critical predictions and automate reasoning and decisions.</li>
+                  <li>Developed a Weather Prediction System using machine learning on mock datasets.</li>
+                  <li>Incorporated data to translate complex business problems into ML problems.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="timeline-node">
+              <div className="timeline-dot"></div>
+              <div className="timeline-title">Design and Simulation Intern</div>
+              <div className="timeline-company">BrainSwarm Robotics | Islamabad, Pakistan <span style={{color:'#98a6b1'}}>• May 2025 - July 2025</span></div>
+              <div className="timeline-details">
+                <ul>
+                  <li>Designed and integrated robotic arms through SolidWorks.</li>
+                  <li>Developed robotic simulations using MuJoCo to enhance real-world applications.</li>
+                  <li>Generated digital twins by exporting SolidWorks models into URDF/MJCF formats.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="timeline-node">
+              <div className="timeline-dot"></div>
+              <div className="timeline-title">Data Analyst Intern</div>
+              <div className="timeline-company">Leverify Quest | Islamabad, Pakistan (Remote) <span style={{color:'#98a6b1'}}>• May 2024 - July 2024</span></div>
+              <div className="timeline-details">
+                <ul>
+                  <li>Used professional statistical techniques and maintained large databases for partner/customer data.</li>
+                  <li>Completed data cleaning and validation to promote robust data management and accurate analysis.</li>
+                  <li>Commissioned and decommissioned datasets under mentor supervision; monitored uploads for quality.</li>
+                </ul>
+              </div>
+            </div>
+
           </div>
         </section>
 
-        <section id="services" className="section">
-          <div className="section-title">SERVICES I OFFER</div>
-          <div className="services-grid">
-            <div className="service-card">
-              <h4>Machine Learning</h4>
-              <p>Model design, training and deployment.</p>
-            </div>
-            <div className="service-card">
-              <h4>Embedded Systems</h4>
-              <p>Microcontroller programming and robotics integration.</p>
-            </div>
-            <div className="service-card">
-              <h4>Design & Documentation</h4>
-              <p>SolidWorks kits, simulations and technical writeups.</p>
-            </div>
+        <section id="skills" className="section">
+          <div className="section-title">Core Skills</div>
+          <div className="services-grid" style={{marginTop:'1rem'}}>
+            <div className="service-card"><h4>Machine Learning & AI</h4><p>Deep learning, model training and evaluation.</p></div>
+            <div className="service-card"><h4>Agentic AI & Prompt Engineering</h4><p>Designing agent systems and prompt pipelines.</p></div>
+            <div className="service-card"><h4>Embedded & Robotics</h4><p>Microcontrollers, ROS, SolidWorks integrations.</p></div>
           </div>
         </section>
 
         <section id="contact" className="section">
-          <div className="section-title">CONNECT WITH ME</div>
-          <div className="contact-grid">
-            <a className="contact-card" href="mailto:abdurrehmansaeed709@gmail.com">
-              <svg viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                <polyline points="22,6 12,13 2,6"></polyline>
-              </svg>
-              <h4>Email</h4>
-              <p>abdurrehmansaeed709@gmail.com</p>
-            </a>
-
-            <a className="contact-card" href="https://www.linkedin.com/in/arehmans1" target="_blank" rel="noreferrer">
-              <svg viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                <rect x="2" y="9" width="4" height="12"></rect>
-                <circle cx="4" cy="4" r="2"></circle>
-              </svg>
-              <h4>LinkedIn</h4>
-              <p>in/arehmans1</p>
-            </a>
-
-            <div className="contact-card">
-              <svg viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-              </svg>
-              <h4>Phone</h4>
-              <p>+92 314 0540826</p>
-            </div>
+          <div className="section-title">Connect</div>
+          <div className="contact-grid" style={{marginTop:'1rem'}}>
+            <a className="contact-card" href="mailto:abdurrehmansaeed709@gmail.com"><h4>Email</h4><p>abdurrehmansaeed709@gmail.com</p></a>
+            <a className="contact-card" href="https://www.linkedin.com/in/arehmans1" target="_blank" rel="noreferrer"><h4>LinkedIn</h4><p>in/arehmans1</p></a>
+            <div className="contact-card"><h4>Phone</h4><p>+92 314 0540826</p></div>
           </div>
         </section>
 
