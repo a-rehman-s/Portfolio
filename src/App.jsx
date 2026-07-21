@@ -33,20 +33,13 @@ const App = () => {
             </div>
           </div>
           
-          {/* HUD Robotics Graphic */}
-          <div className="hero-graphic">
-            <div className="hud-ring ring-1"></div>
-            <div className="hud-ring ring-2"></div>
-            <div className="hud-ring ring-3"></div>
-            <div className="bot-center">
-              <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                <rect x="3" y="11" width="18" height="10" rx="2" />
-                <circle cx="12" cy="5" r="2" />
-                <path d="M12 7v4" />
-                <line x1="8" y1="16" x2="8" y2="16" />
-                <line x1="16" y1="16" x2="16" y2="16" />
-              </svg>
-            </div>
+          {/* Collage / DP */}
+          <div className="hero-collage">
+            <img src="/src/assets/dp.png" alt="DP" className="collage-photo photo-1" />
+            <img src="/src/assets/hero.png" alt="sample" className="collage-photo photo-2" />
+            <img src="/src/assets/react.svg" alt="badge" className="collage-photo photo-3" />
+            <div className="stamp stamp--tilt" style={{ left: '20px', top: '10px' }}>My Work</div>
+            <div className="stamp stamp--small" style={{ right: '12px', bottom: '18px' }}>PHIRI</div>
           </div>
         </section>
 
